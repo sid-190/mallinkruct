@@ -1,0 +1,43 @@
+.bios-row {
+    display: table;
+}
+.bios-row .bios-cell {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    padding: 20px 40px 20px;
+}
+.bios-row .bios-cell .bios-text p {
+    margin: .25rem 0;
+    font-style: italic;
+}
+.bios-fulltext {
+    padding: 50px 0 20px 0;
+}
+.bios-fulltext .green-box {
+    border: 2px solid #a3cf62;
+    padding: 30px;
+}
+.bios-fulltext p {
+    margin: 0 0 .75rem 0;
+}
+.bios-fulltext p.bio-name {
+    color: #5a8f4d;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 .5rem 0;
+}
+.bios-fulltext p.bio-credentials {
+    font-style: italic;
+    margin: 0 0 1rem 0;
+}
+@media (max-width:767px) {
+    .bios-row {
+        display: block;
+    }
+    .bios-row .bios-cell {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
